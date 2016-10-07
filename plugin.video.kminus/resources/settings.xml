@@ -1,0 +1,4 @@
+<settings>
+   <setting id="file" type="file" label="Save iptvlist location" value="path_to_files" default = "D:\i.txt"/>
+   <setting id="quality" type="number" label="Chọn độ phân giải (0 xấu,3 Đẹp nhất)" default= "2"/>
+</settings>
