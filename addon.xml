@@ -18,7 +18,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.fptiptv" name="[COLOR green][B]FPT iptv list maker[/B][/COLOR]" version="1.6" provider-name="Hihi">
+<addon id="plugin.video.fptiptv" name="[COLOR green][B]FPT iptv list maker[/B][/COLOR]" version="1.7" provider-name="Hihi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -27,23 +27,6 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.service" library="addon.py" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <language></language>
-    <summary lang="en">Tạo list iptv</summary>
-    <description lang="en">Chọn chỗ lưu danh sách tv và chỉnh độ phân giải trong cài đặt.</description>
-	<language>vi</language>
-	<license>Free4all</license>
-  </extension>
-</addon>
-<addon id="plugin.video.kminus" name="[COLOR green][B]K-[/B][/COLOR]" version="1.6" provider-name="Hihi">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
